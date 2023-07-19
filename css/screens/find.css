@@ -1,27 +1,6 @@
 body {
     height: auto;
 }
-.find-icons {
-    display: flex;
-    justify-content: space-between;
-}
-
-.find-icons__icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.find-icons__icon i {
-    font-size: 30px;
-}
-
-.find-icons__icon span {
-    font-weight: 600;
-    text-align: center;
-    margin-top: 25px;
-    width: 80px;
-}
 
 .recommended-friends {
     padding: 20px 0px;
@@ -100,27 +79,23 @@ body {
     border-right: 1px solid gray;
     height: 10px;
     opacity: 0.6;
-     */
+    */
 }
 .open-post__member-status {
     color: #FF72C9;
 }
 
-.open-post__column:last-child img {
+.open-post__column .open-post__image {
     width: 100px;
     height: 100px;
     border-radius: 8px;
-    position: relative;
 }
-.open-post__column:last-child span {
+
+.open-post__column .open-post__hearts {
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     font-size: 12px;
     border-radius: 30px;
     padding: 4px 7px;
-    background-color: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    right: 28px;
-    bottom: 105px;
 }
 
-.op

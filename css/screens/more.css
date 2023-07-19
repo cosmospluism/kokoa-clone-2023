@@ -1,0 +1,41 @@
+.user-component__column .user-component__subtitle2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.user-component__column .user-component__text i {
+    color: rgb(199, 15, 15);
+    margin-left: 2px;
+}
+
+.user-component__column:last-child i {
+    color: #2F363E;
+}
+
+/* icon-rows */
+.more-screen .icon-row {
+    margin-top: 30px;
+}
+
+.more-screen .icon-row__icon span {
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.icon-row__icon .fa-suitcase {
+    position: relative;
+}
+
+.more-screen .icon-row__icon .dot {
+    position: absolute;
+    left: 205px;
+    top: 209px;
+}
+
+
+
+
+
