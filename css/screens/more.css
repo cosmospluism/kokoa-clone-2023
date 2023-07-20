@@ -35,6 +35,41 @@
     top: 209px;
 }
 
+/* 0720 */
+.more-suggestions {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: var(--main-border);
+}
+.more-suggestions__title {
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.more-suggestions__icons {
+    display: flex;
+}
+
+.more-suggestions__icon {
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-suggestions__icon-image {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-text {
+    opacity: 0.7;
+}
+
+
 
 
 

@@ -1,0 +1,33 @@
+body {
+    height: auto;
+}
+
+.settings__setting {
+    padding: 25px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings__setting i {
+    margin-right: 10px;
+    opacity: 0.9;
+    width: 30px;
+}
+
+.settings__setting:last-child {
+    border-bottom: none;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.6;
+}
+
+.settings__setting-line {
+    margin: 25px 0px;
+    height: 2px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.07);
+}
