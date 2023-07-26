@@ -1,3 +1,7 @@
+.more-body {
+    height: 130vh;
+}
+
 .user-component__column .user-component__subtitle2 {
     font-size: 14px;
     font-weight: 600;
@@ -25,14 +29,14 @@
     margin-top: 15px;
 }
 
-.icon-row__icon .fa-suitcase {
+.icon-row__icon .icon-row__icon--dot {
     position: relative;
 }
 
-.more-screen .icon-row__icon .dot {
+.icon-row__dot {
     position: absolute;
-    left: 205px;
-    top: 209px;
+    left: 193px;
+    top: 210px;
 }
 
 /* 0720 */
@@ -57,12 +61,18 @@
     align-items: center;
 }
 
-.more-suggestions__icon-image {
-    display: block;
+.more-suggestions i {
+    font-size: 30px;
     width: 50px;
     height: 50px;
-    border-radius: 8px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--yellow);
+    border-radius: 20px;
+    padding: 5px;
 }
 
 .more-suggestions__icon-text {

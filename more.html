@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More - Kokoa Clone</title>
 </head>
-<body>
+<body class="more-body">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -53,8 +53,8 @@
             </div>
             <div class="icon-row__icon">
                 <i class="fas fa-suitcase"></i>
-                <div class="dot"></div>
                 <span>Talk Drive</span>
+                <div class="icon-row__dot"></div>
             </div>
             <div class="icon-row__icon">
                 <i class="far fa-smile"></i>
@@ -82,16 +82,16 @@
             <h4 class="more-suggestions__title">Suggestions</h4>
             <div class="more-suggestions__icons">
                 <div class="more-suggestions__icon">
-                <img src="screenshots/mitsuya.jpg" class="more-suggestions__icon-image">
-                <span class="more-suggestions__icon-text">Mitsuya</span>
+                <i class="fas fa-gift"></i>
+                <span class="more-suggestions__icon-text">Gifts</span>
                 </div>
                 <div class="more-suggestions__icon">
-                <img src="screenshots/kazu.jpg" class="more-suggestions__icon-image">
-                <span class="more-suggestions__icon-text">Kazutora</span>
+                <i class="fas fa-store"></i>
+                <span class="more-suggestions__icon-text">Shopping</span>
                 </div>
                 <div class="more-suggestions__icon">
-                <img src="screenshots/Yuzuhan.jpg" class="more-suggestions__icon-image">
-                <span class="more-suggestions__icon-text">Yuzuha</span>
+                <i class="fas fa-puzzle-piece"></i>
+                <span class="more-suggestions__icon-text">Game</span>
                 </div>
             </div>
 
@@ -119,6 +119,10 @@
             </li>
         </ul>
     </nav>
+
+    <div id="no-mobile">
+        <span>Your screen is too big ;(</span>
+    </div>
 
     <script
         src="http://kit.fontawesome.com/6478f529f2.js"
