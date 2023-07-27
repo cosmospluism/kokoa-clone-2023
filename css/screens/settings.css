@@ -1,3 +1,7 @@
+.setting-body {
+    height: 135vh;
+}
+
 .settings__setting {
     padding: 25px 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
@@ -5,6 +9,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: background-color 0.4s;
+}
+
+.settings__setting:hover {
+    background-color: rgba(0, 0, 0, 0.04);
 }
 
 .settings__setting i {
@@ -21,9 +30,37 @@
     opacity: 0.6;
 }
 
-.settings-line {
+.settings__setting-column {
+    display: flex;
+    align-items: center;
+}
+
+.settings__n-dot {
+    background-color: tomato;
+    color: white;
+    font-size: 4px;
+    font-weight: 600;
+    margin-left: 9px;
+    padding: 3px 4px;
+    border-radius: 50%;
+    animation: popNdot 0.4s linear infinite;
+}
+
+@keyframes popNdot {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.settings__line {
     margin: 15px 0px;
     height: 1px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.07);
+    background-color: rgba(0, 0, 0, 0.13);
 }
