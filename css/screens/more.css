@@ -73,6 +73,11 @@
     background-color: var(--yellow);
     border-radius: 20px;
     padding: 5px;
+    transition: background-color 0.4s;
+}
+
+.more-suggestions i:hover {
+    background-color: #F7D800;
 }
 
 .more-suggestions__icon-text {
