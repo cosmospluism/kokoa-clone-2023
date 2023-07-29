@@ -29,14 +29,14 @@
     margin-top: 15px;
 }
 
-.icon-row__icon .icon-row__icon--dot {
+.icon-row__icon--with-dot {
     position: relative;
 }
 
 .icon-row__dot {
     position: absolute;
-    left: 193px;
-    top: 210px;
+    right: 12px;
+    top: -3px;
 }
 
 /* 0720 */
